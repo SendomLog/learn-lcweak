@@ -56,6 +56,7 @@
 		887FA74A2A96F2CB00B66250 /* minWindowTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = minWindowTest.mm; sourceTree = "<group>"; };
 		887FA74C2A96F2DB00B66250 /* minWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minWindow.cpp; sourceTree = "<group>"; };
 		887FA74D2A96F2DB00B66250 /* minWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minWindow.hpp; sourceTree = "<group>"; };
+		887FA7502A97023300B66250 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		887FA7042A96F28C00B66250 = {
 			isa = PBXGroup;
 			children = (
+				887FA7502A97023300B66250 /* README.md */,
 				887FA70F2A96F28C00B66250 /* learn-lcweak */,
 				887FA7252A96F28E00B66250 /* learn-lcweakTests */,
 				887FA7442A96F2B400B66250 /* 76. Minimum Window Substring */,
