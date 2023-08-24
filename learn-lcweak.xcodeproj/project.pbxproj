@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		887FA7122A96F28C00B66250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7112A96F28C00B66250 /* AppDelegate.m */; };
+		887FA7152A96F28C00B66250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7142A96F28C00B66250 /* ViewController.m */; };
+		887FA7172A96F28E00B66250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887FA7162A96F28E00B66250 /* Assets.xcassets */; };
+		887FA71A2A96F28E00B66250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887FA7182A96F28E00B66250 /* Main.storyboard */; };
+		887FA71C2A96F28E00B66250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA71B2A96F28E00B66250 /* main.m */; };
+		887FA7272A96F28E00B66250 /* learn_lcweakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7262A96F28E00B66250 /* learn_lcweakTests.m */; };
+		887FA7312A96F28E00B66250 /* learn_lcweakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7302A96F28E00B66250 /* learn_lcweakUITests.m */; };
+		887FA7332A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7322A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		887FA7232A96F28E00B66250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887FA7052A96F28C00B66250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887FA70C2A96F28C00B66250;
+			remoteInfo = "learn-lcweak";
+		};
+		887FA72D2A96F28E00B66250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887FA7052A96F28C00B66250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887FA70C2A96F28C00B66250;
+			remoteInfo = "learn-lcweak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		887FA70D2A96F28C00B66250 /* learn-lcweak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-lcweak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887FA7102A96F28C00B66250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		887FA7112A96F28C00B66250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		887FA7132A96F28C00B66250 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		887FA7142A96F28C00B66250 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		887FA7162A96F28E00B66250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		887FA7192A96F28E00B66250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		887FA71B2A96F28E00B66250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		887FA71D2A96F28E00B66250 /* learn_lcweak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = learn_lcweak.entitlements; sourceTree = "<group>"; };
+		887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-lcweakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887FA7262A96F28E00B66250 /* learn_lcweakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learn_lcweakTests.m; sourceTree = "<group>"; };
+		887FA72C2A96F28E00B66250 /* learn-lcweakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-lcweakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887FA7302A96F28E00B66250 /* learn_lcweakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learn_lcweakUITests.m; sourceTree = "<group>"; };
+		887FA7322A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learn_lcweakUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887FA70A2A96F28C00B66250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887FA71F2A96F28E00B66250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887FA7292A96F28E00B66250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		887FA7042A96F28C00B66250 = {
+			isa = PBXGroup;
+			children = (
+				887FA70F2A96F28C00B66250 /* learn-lcweak */,
+				887FA7252A96F28E00B66250 /* learn-lcweakTests */,
+				887FA72F2A96F28E00B66250 /* learn-lcweakUITests */,
+				887FA70E2A96F28C00B66250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		887FA70E2A96F28C00B66250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887FA70D2A96F28C00B66250 /* learn-lcweak.app */,
+				887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */,
+				887FA72C2A96F28E00B66250 /* learn-lcweakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		887FA70F2A96F28C00B66250 /* learn-lcweak */ = {
+			isa = PBXGroup;
+			children = (
+				887FA7102A96F28C00B66250 /* AppDelegate.h */,
+				887FA7112A96F28C00B66250 /* AppDelegate.m */,
+				887FA7132A96F28C00B66250 /* ViewController.h */,
+				887FA7142A96F28C00B66250 /* ViewController.m */,
+				887FA7162A96F28E00B66250 /* Assets.xcassets */,
+				887FA7182A96F28E00B66250 /* Main.storyboard */,
+				887FA71B2A96F28E00B66250 /* main.m */,
+				887FA71D2A96F28E00B66250 /* learn_lcweak.entitlements */,
+			);
+			path = "learn-lcweak";
+			sourceTree = "<group>";
+		};
+		887FA7252A96F28E00B66250 /* learn-lcweakTests */ = {
+			isa = PBXGroup;
+			children = (
+				887FA7262A96F28E00B66250 /* learn_lcweakTests.m */,
+			);
+			path = "learn-lcweakTests";
+			sourceTree = "<group>";
+		};
+		887FA72F2A96F28E00B66250 /* learn-lcweakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				887FA7302A96F28E00B66250 /* learn_lcweakUITests.m */,
+				887FA7322A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m */,
+			);
+			path = "learn-lcweakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887FA70C2A96F28C00B66250 /* learn-lcweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887FA7362A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweak" */;
+			buildPhases = (
+				887FA7092A96F28C00B66250 /* Sources */,
+				887FA70A2A96F28C00B66250 /* Frameworks */,
+				887FA70B2A96F28C00B66250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "learn-lcweak";
+			productName = "learn-lcweak";
+			productReference = 887FA70D2A96F28C00B66250 /* learn-lcweak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		887FA7212A96F28E00B66250 /* learn-lcweakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887FA7392A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweakTests" */;
+			buildPhases = (
+				887FA71E2A96F28E00B66250 /* Sources */,
+				887FA71F2A96F28E00B66250 /* Frameworks */,
+				887FA7202A96F28E00B66250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887FA7242A96F28E00B66250 /* PBXTargetDependency */,
+			);
+			name = "learn-lcweakTests";
+			productName = "learn-lcweakTests";
+			productReference = 887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		887FA72B2A96F28E00B66250 /* learn-lcweakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887FA73C2A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweakUITests" */;
+			buildPhases = (
+				887FA7282A96F28E00B66250 /* Sources */,
+				887FA7292A96F28E00B66250 /* Frameworks */,
+				887FA72A2A96F28E00B66250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887FA72E2A96F28E00B66250 /* PBXTargetDependency */,
+			);
+			name = "learn-lcweakUITests";
+			productName = "learn-lcweakUITests";
+			productReference = 887FA72C2A96F28E00B66250 /* learn-lcweakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887FA7052A96F28C00B66250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					887FA70C2A96F28C00B66250 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					887FA7212A96F28E00B66250 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 887FA70C2A96F28C00B66250;
+					};
+					887FA72B2A96F28E00B66250 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 887FA70C2A96F28C00B66250;
+					};
+				};
+			};
+			buildConfigurationList = 887FA7082A96F28C00B66250 /* Build configuration list for PBXProject "learn-lcweak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 887FA7042A96F28C00B66250;
+			productRefGroup = 887FA70E2A96F28C00B66250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887FA70C2A96F28C00B66250 /* learn-lcweak */,
+				887FA7212A96F28E00B66250 /* learn-lcweakTests */,
+				887FA72B2A96F28E00B66250 /* learn-lcweakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887FA70B2A96F28C00B66250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887FA7172A96F28E00B66250 /* Assets.xcassets in Resources */,
+				887FA71A2A96F28E00B66250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887FA7202A96F28E00B66250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887FA72A2A96F28E00B66250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887FA7092A96F28C00B66250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887FA7152A96F28C00B66250 /* ViewController.m in Sources */,
+				887FA71C2A96F28E00B66250 /* main.m in Sources */,
+				887FA7122A96F28C00B66250 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887FA71E2A96F28E00B66250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887FA7272A96F28E00B66250 /* learn_lcweakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887FA7282A96F28E00B66250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887FA7332A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m in Sources */,
+				887FA7312A96F28E00B66250 /* learn_lcweakUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		887FA7242A96F28E00B66250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887FA70C2A96F28C00B66250 /* learn-lcweak */;
+			targetProxy = 887FA7232A96F28E00B66250 /* PBXContainerItemProxy */;
+		};
+		887FA72E2A96F28E00B66250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887FA70C2A96F28C00B66250 /* learn-lcweak */;
+			targetProxy = 887FA72D2A96F28E00B66250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		887FA7182A96F28E00B66250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887FA7192A96F28E00B66250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		887FA7342A96F28E00B66250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		887FA7352A96F28E00B66250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		887FA7372A96F28E00B66250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "learn-lcweak/learn_lcweak.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		887FA7382A96F28E00B66250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "learn-lcweak/learn_lcweak.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		887FA73A2A96F28E00B66250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learn-lcweak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/learn-lcweak";
+			};
+			name = Debug;
+		};
+		887FA73B2A96F28E00B66250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learn-lcweak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/learn-lcweak";
+			};
+			name = Release;
+		};
+		887FA73D2A96F28E00B66250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "learn-lcweak";
+			};
+			name = Debug;
+		};
+		887FA73E2A96F28E00B66250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "learn-lcweak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887FA7082A96F28C00B66250 /* Build configuration list for PBXProject "learn-lcweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887FA7342A96F28E00B66250 /* Debug */,
+				887FA7352A96F28E00B66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887FA7362A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887FA7372A96F28E00B66250 /* Debug */,
+				887FA7382A96F28E00B66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887FA7392A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887FA73A2A96F28E00B66250 /* Debug */,
+				887FA73B2A96F28E00B66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887FA73C2A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887FA73D2A96F28E00B66250 /* Debug */,
+				887FA73E2A96F28E00B66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 887FA7052A96F28C00B66250 /* Project object */;
+}
