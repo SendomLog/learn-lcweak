@@ -13,8 +13,9 @@
 		887FA71A2A96F28E00B66250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887FA7182A96F28E00B66250 /* Main.storyboard */; };
 		887FA71C2A96F28E00B66250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA71B2A96F28E00B66250 /* main.m */; };
 		887FA7272A96F28E00B66250 /* learn_lcweakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7262A96F28E00B66250 /* learn_lcweakTests.m */; };
-		887FA7312A96F28E00B66250 /* learn_lcweakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7302A96F28E00B66250 /* learn_lcweakUITests.m */; };
-		887FA7332A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7322A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m */; };
+		887FA74B2A96F2CB00B66250 /* minWindowTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 887FA74A2A96F2CB00B66250 /* minWindowTest.mm */; };
+		887FA74E2A96F2DB00B66250 /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887FA74C2A96F2DB00B66250 /* minWindow.cpp */; };
+		887FA74F2A96F2DB00B66250 /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887FA74C2A96F2DB00B66250 /* minWindow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +26,19 @@
 			remoteGlobalIDString = 887FA70C2A96F28C00B66250;
 			remoteInfo = "learn-lcweak";
 		};
-		887FA72D2A96F28E00B66250 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 887FA7052A96F28C00B66250 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 887FA70C2A96F28C00B66250;
-			remoteInfo = "learn-lcweak";
-		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		887FA7412A96F2B400B66250 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		887FA70D2A96F28C00B66250 /* learn-lcweak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-lcweak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,9 +52,10 @@
 		887FA71D2A96F28E00B66250 /* learn_lcweak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = learn_lcweak.entitlements; sourceTree = "<group>"; };
 		887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-lcweakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887FA7262A96F28E00B66250 /* learn_lcweakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learn_lcweakTests.m; sourceTree = "<group>"; };
-		887FA72C2A96F28E00B66250 /* learn-lcweakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learn-lcweakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		887FA7302A96F28E00B66250 /* learn_lcweakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learn_lcweakUITests.m; sourceTree = "<group>"; };
-		887FA7322A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learn_lcweakUITestsLaunchTests.m; sourceTree = "<group>"; };
+		887FA7432A96F2B400B66250 /* 76. Minimum Window Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "76. Minimum Window Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887FA74A2A96F2CB00B66250 /* minWindowTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = minWindowTest.mm; sourceTree = "<group>"; };
+		887FA74C2A96F2DB00B66250 /* minWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minWindow.cpp; sourceTree = "<group>"; };
+		887FA74D2A96F2DB00B66250 /* minWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minWindow.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +73,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		887FA7292A96F28E00B66250 /* Frameworks */ = {
+		887FA7402A96F2B400B66250 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +88,7 @@
 			children = (
 				887FA70F2A96F28C00B66250 /* learn-lcweak */,
 				887FA7252A96F28E00B66250 /* learn-lcweakTests */,
-				887FA72F2A96F28E00B66250 /* learn-lcweakUITests */,
+				887FA7442A96F2B400B66250 /* 76. Minimum Window Substring */,
 				887FA70E2A96F28C00B66250 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +98,7 @@
 			children = (
 				887FA70D2A96F28C00B66250 /* learn-lcweak.app */,
 				887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */,
-				887FA72C2A96F28E00B66250 /* learn-lcweakUITests.xctest */,
+				887FA7432A96F2B400B66250 /* 76. Minimum Window Substring */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,17 +122,18 @@
 			isa = PBXGroup;
 			children = (
 				887FA7262A96F28E00B66250 /* learn_lcweakTests.m */,
+				887FA74A2A96F2CB00B66250 /* minWindowTest.mm */,
 			);
 			path = "learn-lcweakTests";
 			sourceTree = "<group>";
 		};
-		887FA72F2A96F28E00B66250 /* learn-lcweakUITests */ = {
+		887FA7442A96F2B400B66250 /* 76. Minimum Window Substring */ = {
 			isa = PBXGroup;
 			children = (
-				887FA7302A96F28E00B66250 /* learn_lcweakUITests.m */,
-				887FA7322A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m */,
+				887FA74C2A96F2DB00B66250 /* minWindow.cpp */,
+				887FA74D2A96F2DB00B66250 /* minWindow.hpp */,
 			);
-			path = "learn-lcweakUITests";
+			path = "76. Minimum Window Substring";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,23 +174,22 @@
 			productReference = 887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		887FA72B2A96F28E00B66250 /* learn-lcweakUITests */ = {
+		887FA7422A96F2B400B66250 /* 76. Minimum Window Substring */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 887FA73C2A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweakUITests" */;
+			buildConfigurationList = 887FA7472A96F2B400B66250 /* Build configuration list for PBXNativeTarget "76. Minimum Window Substring" */;
 			buildPhases = (
-				887FA7282A96F28E00B66250 /* Sources */,
-				887FA7292A96F28E00B66250 /* Frameworks */,
-				887FA72A2A96F28E00B66250 /* Resources */,
+				887FA73F2A96F2B400B66250 /* Sources */,
+				887FA7402A96F2B400B66250 /* Frameworks */,
+				887FA7412A96F2B400B66250 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				887FA72E2A96F28E00B66250 /* PBXTargetDependency */,
 			);
-			name = "learn-lcweakUITests";
-			productName = "learn-lcweakUITests";
-			productReference = 887FA72C2A96F28E00B66250 /* learn-lcweakUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "76. Minimum Window Substring";
+			productName = "76. Minimum Window Substring";
+			productReference = 887FA7432A96F2B400B66250 /* 76. Minimum Window Substring */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,9 +207,8 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 887FA70C2A96F28C00B66250;
 					};
-					887FA72B2A96F28E00B66250 = {
+					887FA7422A96F2B400B66250 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 887FA70C2A96F28C00B66250;
 					};
 				};
 			};
@@ -221,7 +227,7 @@
 			targets = (
 				887FA70C2A96F28C00B66250 /* learn-lcweak */,
 				887FA7212A96F28E00B66250 /* learn-lcweakTests */,
-				887FA72B2A96F28E00B66250 /* learn-lcweakUITests */,
+				887FA7422A96F2B400B66250 /* 76. Minimum Window Substring */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +243,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		887FA7202A96F28E00B66250 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		887FA72A2A96F28E00B66250 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,16 +266,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887FA74E2A96F2DB00B66250 /* minWindow.cpp in Sources */,
+				887FA74B2A96F2CB00B66250 /* minWindowTest.mm in Sources */,
 				887FA7272A96F28E00B66250 /* learn_lcweakTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		887FA7282A96F28E00B66250 /* Sources */ = {
+		887FA73F2A96F2B400B66250 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887FA7332A96F28E00B66250 /* learn_lcweakUITestsLaunchTests.m in Sources */,
-				887FA7312A96F28E00B66250 /* learn_lcweakUITests.m in Sources */,
+				887FA74F2A96F2DB00B66250 /* minWindow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +287,6 @@
 			isa = PBXTargetDependency;
 			target = 887FA70C2A96F28C00B66250 /* learn-lcweak */;
 			targetProxy = 887FA7232A96F28E00B66250 /* PBXContainerItemProxy */;
-		};
-		887FA72E2A96F28E00B66250 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 887FA70C2A96F28C00B66250 /* learn-lcweak */;
-			targetProxy = 887FA72D2A96F28E00B66250 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,31 +491,19 @@
 			};
 			name = Release;
 		};
-		887FA73D2A96F28E00B66250 /* Debug */ = {
+		887FA7482A96F2B400B66250 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweakUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_TARGET_NAME = "learn-lcweak";
 			};
 			name = Debug;
 		};
-		887FA73E2A96F28E00B66250 /* Release */ = {
+		887FA7492A96F2B400B66250 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sendom.learn-lcweakUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_TARGET_NAME = "learn-lcweak";
 			};
 			name = Release;
 		};
@@ -554,11 +537,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		887FA73C2A96F28E00B66250 /* Build configuration list for PBXNativeTarget "learn-lcweakUITests" */ = {
+		887FA7472A96F2B400B66250 /* Build configuration list for PBXNativeTarget "76. Minimum Window Substring" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				887FA73D2A96F28E00B66250 /* Debug */,
-				887FA73E2A96F28E00B66250 /* Release */,
+				887FA7482A96F2B400B66250 /* Debug */,
+				887FA7492A96F2B400B66250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
