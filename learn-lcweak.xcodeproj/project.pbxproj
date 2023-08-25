@@ -12,10 +12,11 @@
 		887FA7172A96F28E00B66250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887FA7162A96F28E00B66250 /* Assets.xcassets */; };
 		887FA71A2A96F28E00B66250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887FA7182A96F28E00B66250 /* Main.storyboard */; };
 		887FA71C2A96F28E00B66250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA71B2A96F28E00B66250 /* main.m */; };
-		887FA7272A96F28E00B66250 /* learn_lcweakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FA7262A96F28E00B66250 /* learn_lcweakTests.m */; };
-		887FA74B2A96F2CB00B66250 /* minWindowTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 887FA74A2A96F2CB00B66250 /* minWindowTest.mm */; };
 		887FA74E2A96F2DB00B66250 /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887FA74C2A96F2DB00B66250 /* minWindow.cpp */; };
 		887FA74F2A96F2DB00B66250 /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887FA74C2A96F2DB00B66250 /* minWindow.cpp */; };
+		88FDBD342A983F22003D1102 /* Codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FDBD322A983F22003D1102 /* Codec.cpp */; };
+		88FDBD352A983F22003D1102 /* Codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FDBD322A983F22003D1102 /* Codec.cpp */; };
+		88FDBD372A983FED003D1102 /* CodecTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 88FDBD362A983FED003D1102 /* CodecTest.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		887FA7412A96F2B400B66250 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		88FDBD292A983F0D003D1102 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -57,6 +67,10 @@
 		887FA74C2A96F2DB00B66250 /* minWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minWindow.cpp; sourceTree = "<group>"; };
 		887FA74D2A96F2DB00B66250 /* minWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minWindow.hpp; sourceTree = "<group>"; };
 		887FA7502A97023300B66250 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88FDBD2B2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "297. Serialize and Deserialize Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FDBD322A983F22003D1102 /* Codec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Codec.cpp; sourceTree = "<group>"; };
+		88FDBD332A983F22003D1102 /* Codec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Codec.hpp; sourceTree = "<group>"; };
+		88FDBD362A983FED003D1102 /* CodecTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CodecTest.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88FDBD282A983F0D003D1102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +112,7 @@
 				887FA70F2A96F28C00B66250 /* learn-lcweak */,
 				887FA7252A96F28E00B66250 /* learn-lcweakTests */,
 				887FA7442A96F2B400B66250 /* 76. Minimum Window Substring */,
+				88FDBD2C2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */,
 				887FA70E2A96F28C00B66250 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +123,7 @@
 				887FA70D2A96F28C00B66250 /* learn-lcweak.app */,
 				887FA7222A96F28E00B66250 /* learn-lcweakTests.xctest */,
 				887FA7432A96F2B400B66250 /* 76. Minimum Window Substring */,
+				88FDBD2B2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +148,7 @@
 			children = (
 				887FA7262A96F28E00B66250 /* learn_lcweakTests.m */,
 				887FA74A2A96F2CB00B66250 /* minWindowTest.mm */,
+				88FDBD362A983FED003D1102 /* CodecTest.mm */,
 			);
 			path = "learn-lcweakTests";
 			sourceTree = "<group>";
@@ -136,6 +160,15 @@
 				887FA74D2A96F2DB00B66250 /* minWindow.hpp */,
 			);
 			path = "76. Minimum Window Substring";
+			sourceTree = "<group>";
+		};
+		88FDBD2C2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				88FDBD322A983F22003D1102 /* Codec.cpp */,
+				88FDBD332A983F22003D1102 /* Codec.hpp */,
+			);
+			path = "297. Serialize and Deserialize Binary Tree";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +226,23 @@
 			productReference = 887FA7432A96F2B400B66250 /* 76. Minimum Window Substring */;
 			productType = "com.apple.product-type.tool";
 		};
+		88FDBD2A2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FDBD312A983F0D003D1102 /* Build configuration list for PBXNativeTarget "297. Serialize and Deserialize Binary Tree" */;
+			buildPhases = (
+				88FDBD272A983F0D003D1102 /* Sources */,
+				88FDBD282A983F0D003D1102 /* Frameworks */,
+				88FDBD292A983F0D003D1102 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "297. Serialize and Deserialize Binary Tree";
+			productName = "297. Serialize and Deserialize Binary Tree";
+			productReference = 88FDBD2B2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +260,9 @@
 						TestTargetID = 887FA70C2A96F28C00B66250;
 					};
 					887FA7422A96F2B400B66250 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					88FDBD2A2A983F0D003D1102 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -230,6 +283,7 @@
 				887FA70C2A96F28C00B66250 /* learn-lcweak */,
 				887FA7212A96F28E00B66250 /* learn-lcweakTests */,
 				887FA7422A96F2B400B66250 /* 76. Minimum Window Substring */,
+				88FDBD2A2A983F0D003D1102 /* 297. Serialize and Deserialize Binary Tree */,
 			);
 		};
 /* End PBXProject section */
@@ -268,9 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FDBD342A983F22003D1102 /* Codec.cpp in Sources */,
 				887FA74E2A96F2DB00B66250 /* minWindow.cpp in Sources */,
-				887FA74B2A96F2CB00B66250 /* minWindowTest.mm in Sources */,
-				887FA7272A96F28E00B66250 /* learn_lcweakTests.m in Sources */,
+				88FDBD372A983FED003D1102 /* CodecTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +333,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				887FA74F2A96F2DB00B66250 /* minWindow.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FDBD272A983F0D003D1102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FDBD352A983F22003D1102 /* Codec.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +571,22 @@
 			};
 			name = Release;
 		};
+		88FDBD2F2A983F0D003D1102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88FDBD302A983F0D003D1102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,6 +622,15 @@
 			buildConfigurations = (
 				887FA7482A96F2B400B66250 /* Debug */,
 				887FA7492A96F2B400B66250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88FDBD312A983F0D003D1102 /* Build configuration list for PBXNativeTarget "297. Serialize and Deserialize Binary Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FDBD2F2A983F0D003D1102 /* Debug */,
+				88FDBD302A983F0D003D1102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
